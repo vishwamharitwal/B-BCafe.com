@@ -170,16 +170,16 @@ body.hovering .cursor-outline {
   font-size: 4rem;
   color: var(--color-accent);
   display: block;
-  opacity: 0;
-  animation: logoSlideToNav 3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  opacity: 1;
+  /* No animation - logo stays centered */
 }
 
 .progress-line {
-  width: 0;
+  width: 100px;
   height: 2px;
   background: var(--color-accent);
   margin-top: 20px;
-  animation: loadLine 2.8s ease-in-out forwards;
+  /* No animation - static line */
 }
 
 /* Logo slides from center to navbar position - FASTER */
